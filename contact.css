@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #00738d;
+  max-width: 100%;
+}
+
+.fa-x {
+  color: #333333;
+  cursor: pointer;
+}
+
+.fa-x:hover {
+  color: #00738d;
+}
+
+.cross-button:active + .nav-list {
+  display: none;
+}
+
+.nav-list input {
+  visibility: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e0e9e6;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Verborgen checkbox voor hamburger menu */
+#menu-toggle {
+  display: none;
+}
+
+/* Hamburger menu icoon */
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-icon span {
+  background-color: #333333;
+  height: 3px;
+  width: 25px;
+  margin: 3px 0;
+  transition: 0.3s;
+}
+
+/* Navigatie links */
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  margin: 0 15px;
+}
+
+.nav-list a {
+  color: #00738d;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: bebas neue;
+  transition: color 0.3s;
+}
+
+.nav-list a:hover {
+  color: #3db0c9;
+}
+
+/* Responsiviteit */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: flex;
+    z-index: ;
+  }
+
+  .nav-list {
+    position: fixed;
+    width: 480px;
+    height: 2000px;
+
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transform: translateX(-120%);
+    transition: all 1s ease;
+  }
+
+  /* Checkbox hack: toon het menu bij een actieve checkbox */
+  #menu-toggle:checked ~ .nav-list {
+    transform: translateX(0);
+  }
+
+  .nav-list li {
+    margin: 15px 0;
+  }
+  .nav-list a {
+    color: #00738d;
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) {
+}
+
+h1 {
+  color: white;
+  font-family: Bebas Neue;
+  font-size: 48px;
+  padding: 0px 27px;
+  margin: 100px 0px 20px 0px;
+}
+p {
+  color: white;
+  font-family: Open Sans;
+  font-size: 16px;
+  padding: 20px 27px;
+  margin: 0px 0px 20px 0px;
+}
+
+.form {
+  color: white;
+  padding: 0px 27px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  margin: 20px 0px 10px 0px;
+}
+
+#Voornaam {
+  background-color: #115665;
+  height: 48px;
+  width: 302px;
+  border-radius: 5px;
+  border: 1px solid #589dac;
+}
+#Achternaam {
+  background-color: #115665;
+  height: 48px;
+  width: 302px;
+  border-radius: 5px;
+  border: 1px solid #589dac;
+}
+#E-mail {
+  background-color: #115665;
+  height: 48px;
+  width: 302px;
+  border-radius: 5px;
+  border: 1px solid #589dac;
+}
+#password {
+  background-color: #115665;
+  height: 48px;
+  width: 302px;
+  border-radius: 5px;
+  border: 1px solid #589dac;
+}
+#Vraag {
+  background-color: #115665;
+  height: 120px;
+  width: 302px;
+  border-radius: 5px;
+  border: 1px solid #589dac;
+}
+
+#Studentennummer {
+  background-color: #115665;
+  height: 48px;
+  width: 302px;
+  border-radius: 5px;
+  border: 1px solid #589dac;
+  margin: 0px 0px 50px 0px;
+}
+button {
+  background-color: #89bc4c;
+  height: 48px;
+  width: 196px;
+  border-radius: 5px;
+  border: 1px;
+  box-shadow: #0d1b38;
+  font-family: Open Sans;
+  font-size: 24px;
+  color: #333333;
+}
+#Sport {
+  background-color: #e0e9e6;
+  margin: 120px 0px 0px 0px;
+}
+.sporten {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #0d1b38; /* Donkerblauwe achtergrond */
+  color: #fff; /* Witte tekst */
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container p,
+.footer-container a {
+  margin: 5px 0;
+  text-align: left;
+}
+
+.footer-container a {
+  color: #9bd2e6;
+  text-decoration: none;
+}
+
+.footer-container a:hover {
+  text-decoration: underline;
+}
+
+/* Logo en Over ons styling */
+.logo-section {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.logo p {
+  font-size: 20px;
+  color: #3db0c9;
+  margin-right: 20px;
+}
+
+.over-ons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.socials a {
+  margin-right: 10px;
+}
+
+/* Copyright tekst */
+.copyright {
+  margin: 15px 0;
+}
+
+/* Links sectie */
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.section h4 {
+  color: #3db0c9;
+  margin-bottom: 10px;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section ul li {
+  margin: 5px 0;
+}
+
+.section ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.section ul li a:hover {
+  text-decoration: underline;
+}
+
+.section:nth-child(2) {
+  order: 1;
+}
