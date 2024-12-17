@@ -1,0 +1,113 @@
+/* Basisinstellingen */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Ariel, sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+header,
+footer {
+  background-color: white;
+  color: white;
+  padding: 15px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer h4 {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #8bc34a;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 50px; /* Pas de breedt van het logo aan */
+  height: auto; /* Zorg dat de verhouding behouden blijft */
+}
+
+/* Algemene footer opmaak */
+footer {
+  background-color: #25193b; /* Donkerpaars */
+  color: white; /* Witte tekst */
+  padding: 20px 10px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Logo */
+.footer-logo img {
+  display: block;
+  margin: 0 auto 10px;
+  width: 80px;
+  color: white;
+}
+
+/* Social media links */
+.footer-social a {
+  color: #66c2b8; /* donkerder groenblauw */
+}
+
+.footer-social a:hover {
+  text-decoration: underline;
+}
+
+/*Footer tekst */
+.footer-info {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Links secties */
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.footer-links .column {
+  margin: 0 10px;
+}
+
+.footer-links h4 {
+  font-size: 16px;
+  color: #51a3a3; /* Lichtblauwe kleur voor titels */
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Onderste lijn */
+footer:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #444; /* Donkerdere scheidingslijn */
+  margin-top: 20px;
+}
