@@ -1,0 +1,273 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Shanti&display=swap');
+
+body {
+    background-color: #F5F5F5;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* navigatie */
+div.navigatie {
+    background-color: #E0E9E6;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.links {
+    display: none;
+}
+
+nav a img {
+    padding: 25px 0px 0px 15px;
+}
+
+.hamburger {
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+
+
+/* aangeduide activiteit */
+.activiteit {
+    background-color: #E0E9E6;
+    padding-bottom: 30px;
+    margin-bottom: 70px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    padding: 60px 30px 25px 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+}
+
+.img_activiteit {
+    display: block; 
+    margin: 0 auto; /* Centreert de afbeelding */
+    background-color: white;
+    border-radius: 20px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+    font-family: "Open Sans", serif;
+}
+
+.activiteit p {
+    text-align: center;
+    font-size: 14px;
+    padding: 0px 60px 5px 60px;
+    font-family: "Open Sans", serif;
+}
+
+
+/* andere activiteiten */
+
+article {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    margin-bottom: 60px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Drop shadow */
+}
+
+article h3 {
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: "Open Sans", serif;
+}
+
+article img{
+    display: block; 
+    margin: 0 auto; /* Centreer de afbeelding */
+    height: 200px;
+}
+
+article a{
+    text-align: center;
+    display: block;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-family: "Open Sans", serif;
+}
+
+
+/* footer */
+footer {
+    background-color: #0D1B40;
+    color: white;
+    padding: 15px 20px 50px 20px;
+    font-family: "Open Sans", serif;
+}
+
+.footer-line {
+    border-top: 1.5px solid white; 
+    margin: 20px 0; 
+}
+
+.socials {
+    display: block;
+}
+
+footer p {
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+}
+
+footer a{
+    color: white;
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+}
+
+.footer_links {
+    display: flex;
+    gap: 70px;
+    margin-top: 20px;
+}
+
+h5 {
+    color: #00738D;
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    padding-bottom: 15px; 
+}
+
+footer ul li a{
+    text-decoration: none;
+    font-family: "Open Sans", serif;
+}
+
+
+/* tablet */
+@media (min-width: 600px) {
+    /* navigatie */
+    .hamburger {
+        display: none;
+    }
+
+    nav {
+        justify-content: center; 
+        align-items: center;
+    }
+
+    div.navigatie {
+        background-color: #E0E9E6;
+        display: flex; 
+        justify-content: center; 
+    }
+
+    ul.links {
+        list-style: none;
+        align-items: center;
+        display: flex; 
+        gap: 20px; 
+    }
+
+    ul.links li a {
+        text-decoration: none;
+        color: #333333;
+        font-family: "Open Sans", serif;
+        font-size: 16px;
+    }
+
+    .btn {
+        background-color: #89BC4C;
+        display: inline-block;
+        padding: 15px 15px;
+        border-radius: 8px;
+    }
+
+    /* aangeduide activiteit */
+    h2 {
+        font-size: 38px;
+        padding: 60px 70px 25px 70px;
+    }
+    h4 {
+        font-size: 24px;
+        font-family: "Bebas Neue", sans-serif;
+    }
+    .activiteit p {
+        font-size: 16px;
+    }
+
+    .img_activiteit {
+        width: 568px; 
+        height: 358px; 
+    }
+
+    /* andere activiteiten */
+    .anderen {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        margin-bottom: 90px;
+    }
+
+    article h3{
+        font-size: 16px;
+    }
+
+    article {
+        margin-bottom: 0;
+    }
+
+}
+
+/* desktop */
+@media (min-width: 800px) {
+    
+    /* navigatie */
+    ul.links {
+        gap: 50px; 
+    }
+
+    /* aangeduide activiteit */
+    h2 {
+        font-size: 65px;
+        padding: 60px 120px 25px 120px;
+    }
+
+    h4 {
+        font-size: 36px;
+    }
+
+    .activiteit p{
+        font-size: 24px;
+    }
+    
+    .img_activiteit {
+        width: 925.12px; 
+        height: 567px; 
+    }
+
+    /* andere activiteiten */
+    article a{
+        font-size: 16px;
+    }
+
+    .anderen {
+        grid-template-columns: 1fr 1fr 1fr 1fr !important;
+        margin: 0px 70px 140px 70px;
+    }
+}
