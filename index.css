@@ -6,14 +6,14 @@ body {
     color: #333333;
     align-items: left;
     text-align: left;
-    font-family:"open sans", serif;
+    font-family: "open sans", serif;
     padding-top: 1em;
     padding-bottom: 1em;
 }
 
 nav {
     display: flex;
-    padding: 3em 1em ;
+    padding: 3em 1em;
     justify-content: space-between;
     align-items: center;
 }
@@ -31,12 +31,12 @@ section {
 
 
 img {
-text-align: center;
+    text-align: center;
 }
 
 .imgmain {
- text-align: center;
- padding: padding;
+    text-align: center;
+    padding: padding;
 }
 
 h1 {
@@ -69,16 +69,16 @@ h2 {
     padding-left: 1em;
 }
 
-.kleine-tekst{
-background-color: #00738D;
-padding: 1em;
+.kleine-tekst {
+    background-color: #00738D;
+    padding: 1em;
 }
 
-.kleine-tekst h2{
+.kleine-tekst h2 {
     color: white;
 }
 
-.kleine-tekst p{
+.kleine-tekst p {
     color: white;
 }
 
@@ -94,7 +94,7 @@ p {
     padding-left: 1em;
 }
 
-.merch a{
+.merch a {
     background-color: #89BC4C;
     color: #000000;
     border: none;
@@ -108,11 +108,11 @@ p {
     text-decoration: none;
 }
 
-div A:hover{
+div A:hover {
     background-color: #7BA939;
 }
 
-.shop a{
+.shop a {
     background-color: #89BC4C;
     color: #000000;
     border: none;
@@ -125,19 +125,19 @@ div A:hover{
     align-items: left;
     text-decoration: none;
 }
+
 .merch a:hover {
     background-color: #7BA939;
 }
 
-footer{
+footer {
     display: block;
     align-items: center;
     padding: 3em;
 }
 
-@media only screen and (max-width: 440px) {
-  }
-  @media only screen and (min-width: 441px) and (max-width: 1024px) {
-  }
-  @media only screen and (min-width: 1025px) {
-  }
+@media only screen and (max-width: 440px) {}
+
+@media only screen and (min-width: 441px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 1025px) {}
