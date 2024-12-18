@@ -1,316 +1,309 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.main {
+  background-color: #e8f0f3;
+}
+
 body {
-    margin: 0;
-    color: #333;
-    line-height: 1.6;
-    font-family: 'Open Sans';
+  margin: 0;
+  color: #333;
+  line-height: 1.6;
+  font-family: "Open Sans";
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #E0E9E6;
-    padding: 10px 20px;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e0e9e6;
+  padding: 10px 20px;
 }
 
-header img {  
-    max-width: 80px;  
-    height: auto;  
-    
-    }  
+header img {
+  max-width: 80px;
+  height: auto;
+}
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .menu-icon {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 /* Inschrijfformulier */
 .inschrijven {
-    background-color: #0c8393;
-    color: white;
-    padding: 20px;
-
+  background-color: #0c8393;
+  color: white;
+  padding: 20px;
 }
 
 .inschrijven h1 {
-    font-size: 2rem;
-    font-family: 'Bebas Neue';
-
+  font-size: 2rem;
+  font-family: "Bebas Neue";
 }
 
 .inschrijven p {
-    margin: 10px 0 20px;
-
+  margin: 10px 0 20px;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
 
-    text-align: center;
-   
+  text-align: center;
 }
 #voornaam {
-    background-color: #115665;
-    height: 20px;
-    max-width: 400px;
-    border-radius: 5px;
-    border: 1px solid #589dac;
-  }
-  #achternaam {
-    background-color: #115665;
-    height: 20px;
-    max-width: 400px;
-    border-radius: 5px;
-    border: 1px solid #589dac;
-  }
-  #telefoon {
-    background-color: #115665;
-    height: 20px;
-    max-width: 400px;
-    border-radius: 5px;
-    border: 1px solid #589dac;
-  }
-  #geboortedatum {
-    background-color: #115665;
-    height: 20px;
-    max-width: 400px;
-    border-radius: 5px;
-    border: 1px solid #589dac;
-  }
-  #email {
-    background-color: #115665;
-    height: 20px;
-    max-width: 400px;
-    border-radius: 5px;
-    border: 1px solid #589dac;
-  }
-  #studienaam {
-    background-color: #115665;
-    height: 20px;
-    max-width: 400px;
-    border-radius: 5px;
-    border: 1px solid #589dac;
-  }
-  
+  background-color: #115665;
+  height: 20px;
+  max-width: 400px;
+  border-radius: 5px;
+  border: 1px solid #589dac;
+}
+#achternaam {
+  background-color: #115665;
+  height: 20px;
+  max-width: 400px;
+  border-radius: 5px;
+  border: 1px solid #589dac;
+}
+#telefoon {
+  background-color: #115665;
+  height: 20px;
+  max-width: 400px;
+  border-radius: 5px;
+  border: 1px solid #589dac;
+}
+#geboortedatum {
+  background-color: #115665;
+  height: 20px;
+  max-width: 400px;
+  border-radius: 5px;
+  border: 1px solid #589dac;
+}
+#email {
+  background-color: #115665;
+  height: 20px;
+  max-width: 400px;
+  border-radius: 5px;
+  border: 1px solid #589dac;
+}
+#studienaam {
+  background-color: #115665;
+  height: 20px;
+  max-width: 400px;
+  border-radius: 5px;
+  border: 1px solid #589dac;
+}
+
 label {
-    text-align: left;
-    margin-top: 10px;
-    
+  text-align: left;
+  margin-top: 10px;
 }
 
 input[type="text"],
 input[type="tel"],
 input[type="date"],
 input[type="email"] {
-    padding: 10px;
-    margin-top: 5px;
-    border: none;
-    border-radius: 5px;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
 }
 
 button {
-    margin-top: 20px;
-    padding: 20px;
-    font-size: 200%;
-    background-color: #b4d53e;
-    color: #333333;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 200%;
+  background-color: #b4d53e;
+  color: #333333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #9cb832;
+  background-color: #9cb832;
 }
 
 .checkbox {
-    margin-top: 10px;
-    text-align: left;
-    font-size: 0.9rem;
-    
+  margin-top: 10px;
+  text-align: left;
+  font-size: 0.9rem;
 }
 
 /* Sportafbeelding */
 .sport-afbeelding {
-    background-color: #e8f0f3;
-    text-align: center;
-    padding: 20px;
+  background-color: #e8f0f3;
+  text-align: center;
+  padding: 20px;
 }
 
 .sport-afbeelding img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 footer {
-    background-color: #1b1b1b;
-    color: white;
-    padding: 20px;
-    font-size: 0.9rem;
+  background-color: #1b1b1b;
+  color: white;
+  padding: 20px;
+  font-size: 0.9rem;
 }
 
 .footer-top {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .footer-links {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
 }
 
 .footer-links ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .footer-links a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .footer-bottom {
-    text-align: center;
-    border-top: 1px solid #333;
-    padding-top: 10px;
+  text-align: center;
+  border-top: 1px solid #333;
+  padding-top: 10px;
 }
 
 a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .footer {
-    background-color: #0f1a3a; 
-    color: #fff;
-    padding: 20px;
-    font-size: 14px;
+  background-color: #0f1a3a;
+  color: #fff;
+  padding: 20px;
+  font-size: 14px;
 }
-header img {  
-    max-width: 80px;  
-    height: auto;  
-    
-    }  
+header img {
+  max-width: 80px;
+  height: auto;
+}
 
 .footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-
 .footer-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer-logo .logo {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #48c0d1; 
+  font-size: 2rem;
+  font-weight: bold;
+  color: #48c0d1;
 }
 
 .social-links p {
-    margin: 0;
-    font-weight: bold;
+  margin: 0;
+  font-weight: bold;
 }
 
 .social-links a {
-    color: #48c0d1;
-    font-weight: normal;
+  color: #48c0d1;
+  font-weight: normal;
 }
-
 
 .footer-text {
-    text-align: left;
-    line-height: 1.5;
+  text-align: left;
+  line-height: 1.5;
 }
 
-
 .footer-links {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .footer-section {
-    flex: 1;
-    margin: 0 10px;
+  flex: 1;
+  margin: 0 10px;
 }
 
 .footer-section h4 {
-    color: #48c0d1;
-    font-size: 1rem;
-    margin-bottom: 10px;
-    font-weight: bold;
+  color: #48c0d1;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .footer-section ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .footer-section li {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .footer-section a {
-    color: #fff;
+  color: #fff;
 }
 
 main {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .sport-afbeelding {
-    flex: 1;
-    max-width: 48%;
-    order: 1; 
+  flex: 1;
+  max-width: 48%;
+  order: 1;
 }
 
 .inschrijven {
-    flex: 1;
-    max-width: 48%;
-    order: 2;
+  flex: 1;
+  max-width: 48%;
+  order: 2;
 }
 div img {
-    width: 80px;
-    height: auto;
+  width: 80px;
+  height: auto;
 }
 
 @media (max-width: 768px) {
-    main {
-        flex-direction: column;
-    }
+  main {
+    flex-direction: column;
+  }
 
-    .sport-afbeelding, .inschrijven {
-        max-width: 100%;
-        order: initial; 
-
-    }
+  .sport-afbeelding,
+  .inschrijven {
+    max-width: 100%;
+    order: initial;
+  }
 }
