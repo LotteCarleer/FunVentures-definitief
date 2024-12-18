@@ -107,3 +107,120 @@ h1 {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  h1 {
+    font-size: bebas neue;
+  }
+  
+  /* Header */
+  header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  nav ul {
+    display: flex;
+    gap: 1rem;
+  }
+  .button-primary {
+    background-color: #97c774;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  /* Hero Sectie */
+  .hero {
+    background-color: #e9f0ec;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    text-align: left;
+  }
+  .hero img {
+    width: 150px;
+    margin: 0 1rem;
+  }
+  .button-secondary {
+    background-color: #97c774;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  /* Top Sellers */
+  .top-sellers {
+    text-align: center;
+    padding: 2rem;
+  }
+  .product-list {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .product-item img {
+    width: 100px;
+  }
+  
+  /* Product Sectie */
+  .products {
+    padding: 2rem;
+    text-align: center;
+  }
+  .categories a {
+    margin: 0 0.5rem;
+    color: #666;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .product-card {
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .product-card img {
+    width: 120px;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1a1a2e;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  .footer-content ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .footer-links ul {
+    margin-top: 1rem;
+  }
