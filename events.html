@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="events.css" />
+    <link rel="stylesheet" href="headerfooter.css">
     <script
       src="https://kit.fontawesome.com/b171e34bd2.js"
       crossorigin="anonymous"
@@ -11,23 +12,24 @@
     <title>Maxime-Claeskens-Statische-website</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar">
-        <img src="img/Logo.png" alt="Logo" />
-        <div class="logo"></div>
-        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
-        <label for="menu-toggle" class="menu-icon"
-          ><i class="fa-solid fa-bars"></i
-        ></label>
-        <ul class="menu">
-          <li><a href="about.html">About us</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="shop.html">Shop</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="agenda.html">Agenda</a></li>
-        </ul>
-      </nav>
-    </header>
+    <header class="header"
+    <nav class="navbar">
+      <ul class="nav-links">
+        <a href="index.html" class="logo"><img src="img/CSS logo.png" alt=""></a>
+        <li><a href="about.html">Over ons</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="agenda.html">Agenda</a></li>
+        <li><a class="navbutton" href="inschrijven.html">Schrijf je nu in</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
     <main>
       <section class="hero-section">
         <h1>
