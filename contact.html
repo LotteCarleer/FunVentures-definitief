@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Inschrijven</title>
     <link rel="stylesheet" href="contact.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
@@ -14,76 +14,53 @@
       rel="stylesheet"
     />
   </head>
-
   <body>
-    <nav>
-      <img src="./Css logo's/CSS logo.png" alt="Css logo" />
-      <input type="checkbox" id="menu-toggle" />
-      <label for="menu-toggle" class="menu-icon">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
+    <!-- Header -->
+    <header>
+      <img src="images/logo.png" alt="logo" />
+      <div class="logo"></div>
+      <div class="menu-icon">☰</div>
+    </header>
 
-      <!-- Navigatie links -->
-      <ul class="nav-list">
-        <li><input type="checkbox" <i class="fa-solid fa-x"></i>   </li>
-        <li><a href="index.html">index</a></li>
-        <li><a href="about.html">Over ons</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="shop.html">Merch</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="inschrijven.html">Inschrijven</a></li>
-        <li><a href="agenda.html">Agenda</a></li>
-        <li><a href="#">English</a></li>
-      </ul>
-    </nav>
+    <!-- Inschrijven Formulier -->
+    <main class="main">
+      <section class="inschrijven">
+        <h1>Contact</h1>
 
-<section id="contact">
-  
-  <div class="contact">
-    <h1>Contact</h1>
-    <p>Mocht je hulp nodig hebben, aarzel niet om ons te contacteren.</p>
-    <form class="form" action="">
-      <div>
-        <label for="Voornaam">Voornaam</label>
-        <input id="Voornaam" type="text" />
-      </div>
-      <div>
-        <label for="Achternaam">Achternaam</label>
-        <input id="Achternaam" type="text" />
-      </div>
-      <div>
-        <label for="E-mail">E-mail </label>
-        <input id="E-mail" type="text" />
-      </div>
-      <div>
-        <label for="password">Wachtwoord</label>
-        <input id="password" type="password" />
-      </div>
-      <div>
-        <label for="Vraag">Stel jouw vraag</label>
-        <input id="Vraag" type="text" />
-      </div>
-      <div>
-        <label for="Studentennummer">Studentennummer</label>
-        <input id="Studentennummer" type="text" />
-      </div>
-      <div>
-        <button id="contacteer" type="submit">Contacteer ons</button>
-      </div>
-    </form>
-  </div>
+        <p>Mocht je hulp nodig hebben, aarzel niet om ons te contacteren.</p>
+        <form>
+          <label for="voornaam">Voornaam</label>
+          <input type="text" id="voornaam" name="voornaam" />
 
-</section>
-    <div id="Sport">
-      <img class="sporten" src="./Css logo's/image 6.png" alt="Sport spullen" />
-    </div>
-    <footer>
+          <label for="Achternaam">Achternaam</label>
+          <input type="text" id="achternaam" name="achternaam" />
+
+          <label for="email">E-mailadres</label>
+          <input type="text" id="email" name="email" />
+
+          <label for="steljouwvraag">Stel jouw vraag</label>
+          <input type="text" id="steljouwvraag" name="steljouwvraag" />
+
+          <label for="studentennummer">Studenten nummer</label>
+          <input type="text" id="studentennummer" name="studentennummer" />
+
+          <button type="submit">Contacteer ons</button>
+        </form>
+      </section>
+
+      <!-- Sportafbeelding -->
+      <section class="sport-afbeelding">
+        <img src="./img/image_6.png" alt="Sportafbeelding" />
+      </section>
+    </main>
+
+    <!-- Footer Sectie -->
+    <footer class="footer">
       <div class="footer-container">
+        <!-- Logo en Social Links -->
         <div class="footer-header">
           <div class="footer-logo">
-            <img src="./Css logo's/Group 6.png" alt="logo" />
+            <img src="./img/Group_6.png" alt="logo" />
           </div>
           <div class="social-links">
             <p>Volg ons:</p>
@@ -99,7 +76,9 @@
           <p>Toegewijd aan teamwork en gemeenschap.</p>
         </div>
 
+        <!-- Footer Links -->
         <div class="footer-links">
+          <!-- Winkel -->
           <div class="footer-section">
             <h4>Winkel</h4>
             <ul>
@@ -108,7 +87,7 @@
               <li><a href="#">Meest Verkocht</a></li>
             </ul>
           </div>
-
+          <!-- Over ons -->
           <div class="footer-section">
             <h4>Over ons</h4>
             <ul>
@@ -117,7 +96,7 @@
               <li><a href="#">Inschrijven</a></li>
             </ul>
           </div>
-
+          <!-- Agenda -->
           <div class="footer-section">
             <h4>Agenda</h4>
             <ul>
